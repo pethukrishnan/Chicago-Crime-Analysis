@@ -104,13 +104,6 @@ After creating the data source, open the dashboard and go into the query editor.
 ## Built With
 
 * [Pandas](https://plot.ly/python/plotly-express/) - The framework used to preprocess the data
-* [Apache Spark](https://spark.apache.org/) - The framework used to quickly preprocess the data
 * [Matplotlib](https://matplotlib.org/) - The framework used to visually explore the data
 * [Power BI](https://powerbi.microsoft.com/en-us/) - The software used to build the dashboard
-* [Scikit-Learn](https://scikit-learn.org/stable/) - The framework used to build the machine learning models
-* [Keras](https://www.tensorflow.org/guide/keras) - The framework used to build the deep learning models
 
-## Author's Info
-
-* Portfolio - https://ryan-kp-miller.github.io/  
-* Email - ryan.kp.miller@gmail.com

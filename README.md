@@ -61,6 +61,8 @@ python data_preprocessing.py
 ```
 
 After creating the data source, open the dashboard and go into the query editor. In the Source step of the query, change the data source file path to the path of the crimes_cleaned.csv file.
+![image](https://github.com/user-attachments/assets/48dffcea-31a0-473f-8d73-2798aa809eb8)
+
 
 
 

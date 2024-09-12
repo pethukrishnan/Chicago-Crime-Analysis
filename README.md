@@ -20,4 +20,16 @@ I also explored the raw counts of crimes and homicides, along with the per capit
 
 Another thing I found interesting was the low arrest rate. The arrest rate for all crimes in the city of Chicago was only 24.96%, which shocked me. The arrest rate for homicides was higher at 37.18% but still lower than I thought it would be (though that's probably because I've been watching too many unrealistic cop shows).
 ```
+### Running the Dashboard
+Before you can use the dashboard, you need to first download both the general crimes [dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) and the homicides [dataset](#https://data.cityofchicago.org/Public-Safety/Homicides/k9xv-yxzs). Save these CSV files as crimes_general.csv and crimes_murders.csv, respectively, in the Data folder in your local copy of the repo.  
+Afterwards, run the data preprocessing script to create the data source for the dashboard.
+```
+python data_preprocessing.py
+```
+After creating the data source, open the dashboard and go into the query editor. In the Source step of the query, change the data source file path to the path of the crimes_cleaned.csv file.
+![image](https://github.com/user-attachments/assets/48dffcea-31a0-473f-8d73-2798aa809eb8)
+## Built With
+* [Pandas](https://plot.ly/python/plotly-express/) - The framework used to preprocess the data
+* [Matplotlib](https://matplotlib.org/) - The framework used to visually explore the data
+* [Power BI](https://powerbi.microsoft.com/en-us/) - The software used to build the dashboard
 

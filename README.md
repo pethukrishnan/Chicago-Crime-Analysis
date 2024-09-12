@@ -19,34 +19,6 @@ I performed a brief exploratory analysis of the cleaned dataset. I looked at a f
 I also explored the raw counts of crimes and homicides, along with the per capita counts, to see if there were any interesting trends. One of the most interesting trends I want to point out is how the raw counts of crimes and homicides can be deceiving. Looking specifically at the plots showing the Community Areas with the Least and Most Crimes with both the raw counts and crimes per capita in the All Crimes and Homicides by Community Area section, we can see that Fuller Park is among the community areas with the least amount of crime, but when looking at the crimes per capita (the raw counts divided by the 2010 Census population sizes), Fuller Park has more crime per capita than all the  community areas in Chicago.  
 
 Another thing I found interesting was the low arrest rate. The arrest rate for all crimes in the city of Chicago was only 24.96%, which shocked me. The arrest rate for homicides was higher at 37.18% but still lower than I thought it would be (though that's probably because I've been watching too many unrealistic cop shows).
-
-
-## Dashboard Setup
-
-### Prerequisites
-
-You need to have Python installed on your computer and be able to run python
-scripts through your terminal.
-
-```
-python example_script.py
-```
-
-You also need to have Power BI Desktop installed. If you don't already, you can download it for free [here](https://www.microsoft.com/en-us/download/details.aspx?id=58494).
-
-
-### Installing
-
-After cloning the repository, navigate to the folder, create and activate a virtual environment, and install the required packages in the requirements.txt file.
-
-For Windows machines:
-```
-cd path/to/repo/folder
-python -m venv env
-cd env/scripts
-activate
-cd ../..
-python -m pip install -r requirements.txt
 ```
 
 

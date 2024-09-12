@@ -23,9 +23,9 @@ Another thing I found interesting was the low arrest rate. The arrest rate for a
 ### Running the Dashboard
 Before you can use the dashboard, you need to first download both the general crimes [dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) and the homicides [dataset](#https://data.cityofchicago.org/Public-Safety/Homicides/k9xv-yxzs). Save these CSV files as crimes_general.csv and crimes_murders.csv, respectively, in the Data folder in your local copy of the repo.  
 Afterwards, run the data preprocessing script to create the data source for the dashboard.
-```
+
 python data_preprocessing.py
-```
+
 After creating the data source, open the dashboard and go into the query editor. In the Source step of the query, change the data source file path to the path of the crimes_cleaned.csv file.
 ![image](https://github.com/user-attachments/assets/48dffcea-31a0-473f-8d73-2798aa809eb8)
 ## Built With
